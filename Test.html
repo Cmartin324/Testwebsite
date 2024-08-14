@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+      <title> Dropbox.com </title>
+      <link rel="icon" type="image/png" href="https://static.vecteezy.com/system/resources/previews/017/395/359/original/dropbox-mobile-apps-icon-free-png.png">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="style.css">
+</head>
+
+<style type="text/css" media="screen">
+
+
+    div#banner { 
+      position: absolute; 
+      top: 0; 
+      left: 0; 
+      background-color: #ffffff; 
+      width: 100%; 
+    }
+    
+    div#main-content { 
+      padding-top: 75px;
+   }
+    
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    line-height: 1.5;
+    min-height: 100vh;
+    background: #ffffff;
+    flex-direction: column;
+    margin: 0;
+}
+
+.main {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 10px 20px;
+    transition: transform 0.2s;
+    width: 500px;
+    text-align: center;
+}
+
+
+h1 {
+    font-family: "Familjen Grotesk", sans-serif;
+    color: #000000;
+}
+
+
+h3 {
+    font-size: large;
+    font-family: "Familjen Grotesk", sans-serif size;
+    color: #414141;
+}
+
+label {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+    color: #555;
+    font-weight: bold;
+}
+
+
+input {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: #0061FE;
+    width: 100%;
+    font-size: 16px;
+}
+
+.wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+</style>
+
+<body>
+    <div id="banner">
+        <div id="banner-content">
+            <img src="https://1000logos.net/wp-content/uploads/2020/08/Dropbox-logo.jpg"width="151.7" height="80.05"/>
+        </div>
+      </div>
+      <hr>
+      <div class="main">
+            <h1><img src="https://static.vecteezy.com/system/resources/previews/017/395/359/original/dropbox-mobile-apps-icon-free-png.png" width="30" height="30"/>DropBox</h1>
+            <h3>Enter Login</h3>
+            <form action="">
+                  <label for="first">
+                        Email:
+                  </label>
+                  <input type="text" 
+                         id="first" 
+                         name="first" 
+                         placeholder="Enter your email" required>
+
+                  <label for="password">
+                        Password:
+                  </label>
+                  <input type="password"
+                         id="password" 
+                         name="password"
+                         placeholder="Enter your Password" required>
+
+                  <div class="wrap">
+                        <button type="Continue"
+                                onclick="solve()">
+                              Continue
+                        </button>
+                  </div>
+            </form>
+            <p>Not registered?
+                  <a href="#"
+                     style="text-decoration: none;">
+                        Create an account
+                  </a>
+            </p>
+      </div>
+</body>
+
+</html>
